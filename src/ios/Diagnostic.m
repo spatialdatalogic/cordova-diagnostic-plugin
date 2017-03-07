@@ -857,7 +857,7 @@ ABAddressBookRef _addressBook;
 
 - (BOOL) isMotionRequestOutcomeAvailable
 {
-    return [CMPedometer respondsToSelector:@selector(isPedometerEventTrackingAvailable)] && [CMPedometer isPedometerEventTrackingAvailable];
+    return false;  //[CMPedometer respondsToSelector:@selector(isPedometerEventTrackingAvailable)] && [CMPedometer isPedometerEventTrackingAvailable];
 }
 
 
