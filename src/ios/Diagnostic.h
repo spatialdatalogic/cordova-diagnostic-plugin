@@ -26,7 +26,7 @@
 #import <ifaddrs.h> // For getifaddrs()
 #import <net/if.h> // For IFF_LOOPBACK
 
-@interface Diagnostic : CDVPlugin <CBCentralManagerDelegate, CLLocationManagerDelegate>
+@interface Diagnostic : CDVPlugin <CLLocationManagerDelegate>
 
     @property (strong, nonatomic) CLLocationManager* locationManager;
     @property (strong, nonatomic) CMMotionActivityManager* motionManager;
