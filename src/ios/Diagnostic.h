@@ -28,7 +28,6 @@
 
 @interface Diagnostic : CDVPlugin <CBCentralManagerDelegate, CLLocationManagerDelegate>
 
-    @property (nonatomic, retain) CBCentralManager* bluetoothManager;
     @property (strong, nonatomic) CLLocationManager* locationManager;
     @property (strong, nonatomic) CMMotionActivityManager* motionManager;
     @property (strong, nonatomic) NSOperationQueue* motionActivityQueue;
